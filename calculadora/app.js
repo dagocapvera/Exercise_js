@@ -8,7 +8,7 @@ function getAge(){
     if(!dobValue) return;
 
     //almacena dob
-    let dob = new Date();
+    let dob = new Date(dobValue);
 
     //fecha actual
     const today = new Date();
